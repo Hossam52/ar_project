@@ -1,13 +1,8 @@
 import 'dart:developer';
 
 import 'package:ar_project/widgets/matrix_gesture_detector.dart';
-import 'package:ar_project/widgets/resizable_widget/src/resizable_widget.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-
-import 'resizable_widget/src/drag_triggers_enum.dart';
-import 'resizable_widget/src/model/trigger.dart';
-import 'resizable_widget/src/resizable_widget_controller.dart';
 
 class _DraggableItemDetails {
   final String imagePath;
